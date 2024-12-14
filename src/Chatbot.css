@@ -1,0 +1,111 @@
+/* Chatbot container */
+.chatbot {
+    max-width: 1900px;
+    height: 93vh;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?t=st=1734162250~exp=1734165850~hmac=2b1cae89c1226a07071caca856fcecef86ecf431f79d3d3cea6b1c20a711eb83&w=996');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Chatbot heading */
+.chatbot h1 {
+    font-size: 4em;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Chatbot intro text */
+.chatbot p {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+/* Chat window - Removed the background color to eliminate the white box */
+.chat-window {
+    padding: 10px;
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    border-radius: 5px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+/* Message styling */
+.message {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* User message styling */
+.message.user {
+    text-align: right;
+    color: blue;
+}
+
+/* Chat input field */
+.chat-input {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Input box styling */
+input {
+    padding: 12px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Send button styling */
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #666;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
