@@ -1,0 +1,130 @@
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F1FB; /* Soft lavender */
+    color: #4B3F72; /* Deep lavender for text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #E8DEF3;
+    color: #4B3F72;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(75, 63, 114, 0.2);
+}
+
+.highlight {
+    color: #5A4D84; /* Highlight color */
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Stress-Free Living Section */
+#stress-free-living {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.stress-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #5A4D84;
+    font-style: italic;
+}
+
+/* Breathing Exercise Section */
+.breathing-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#breathe-in-out {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    animation: fade 4s infinite;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background-color: #D9CFFF;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: breathe 4s infinite;
+}
+
+/* Guided Meditation Section */
+video {
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* Stress Tips Section */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #E8DEF3;
+    color: #4B3F72;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes breathe {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
